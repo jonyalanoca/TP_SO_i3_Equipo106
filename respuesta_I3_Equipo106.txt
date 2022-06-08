@@ -1,13 +1,24 @@
-Valentin Begnis(ALFA)
-Jonathan Alanoca(BETA)
-Valentino Bastardo(GAMMA)
+Valentino Bastardo (ALFA)
+Jonathan Alanoca (BETA)
+Valentin Begnis (GAMMA)
 
 RESPUESTAS
 A-El main queda con todos los archivos y modificaciones realizadas en las ramas luego del marge.
 B-Si BETA puede ver todos los cambios desde el github
 C-Se realizan lo siguiente:
-	1-git pull origin main
-	2-git checkout main
-	3-git diff alanoca
-	4-git merge alanoca
-	5-git push origin main
+	1. git pull origin main
+	2. git checkout main
+	3. git diff alanoca
+	4. git merge alanoca
+	5. git push origin main
+
+D-Las ramas no quedan actualizadas al realizar el merge.
+E-Tuvimos que investigar el funcionamiento del merge y las ramas para entender lo que teníamos que hacer, al igual que estudiar los comandos necesarios para realizar las tareas.
+F-Comandos utilizados:
+	1. git pull origin alanoca
+	2. git checkout alanoca
+	3. vim beta.txt (Para agregar datos de nombre y apellido)
+	4. cierro vim (:wq) y ejecuto ifconfig >> beta.txt
+	5. git add .
+	6. git commit -m "Agrego mis datos al archivo beta.txt"
+	7. git push origin alanoca
