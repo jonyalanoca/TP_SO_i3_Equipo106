@@ -1,0 +1,13 @@
+Valentin Begnis(ALFA)
+Jonathan Alanoca(BETA)
+Valentino Bastardo(GAMMA)
+
+RESPUESTAS
+A-El main queda con todos los archivos y modificaciones realizadas en las ramas luego del marge.
+B-Si BETA puede ver todos los cambios desde el github
+C-Se realizan lo siguiente:
+	1-git pull origin main
+	2-git checkout main
+	3-git diff alanoca
+	4-git merge alanoca
+	5-git push origin main
