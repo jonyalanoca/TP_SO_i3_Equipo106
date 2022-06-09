@@ -22,3 +22,11 @@ F-Comandos utilizados:
 	5. git add .
 	6. git commit -m "Agrego mis datos al archivo beta.txt"
 	7. git push origin alanoca
+G-Comandos utilizados:
+	1. git pull origin alanoca
+	2. git branch
+	3. git checkout alanoca
+	4. edito el archivo con mi info de ipconfig
+	5. git add .
+	6. git commit -m "Agrego mis datos al archivo beta.txt"
+	7. git push origin alanoca
